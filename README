@@ -1,0 +1,2 @@
+-sp+Ip+sn+In.csv: 2K labeled dataset
+-crawler.py: instagram crawler; collects and saves posts and images
