@@ -1,2 +1,5 @@
 -sp+Ip+sn+In.csv: 2K labeled dataset
 -crawler.py: instagram crawler; collects and saves posts and images
+-text.csv: 9k unlabeled data crawled from instagram
+-bi_lstm_ire: bi-lstm model for predicting body-shaming classification (training data).
+-RandomForest: random forest model for predicting body-shaming classification (training data).
