@@ -1,5 +1,18 @@
--sp+Ip+sn+In.csv: 2K labeled dataset
--crawler.py: instagram crawler; collects and saves posts and images
--text.csv: 9k unlabeled data crawled from instagram
--bi_lstm_ire: bi-lstm model for predicting body-shaming classification (training data).
--RandomForest: random forest model for predicting body-shaming classification (training data).
+## Body shaming classification
+
+Body shaming is the act of deriding or mocking a person's physical appearance.
+  * According to a report, 94 percent of teenage girls and 64 percent of boys reporting some level of ridicule for the way they look.
+  
+* sp+Ip+sn+In.csv: 2K labeled dataset
+
+* crawler.py: instagram crawler; collects and saves posts from instagram
+
+* 23900.csv: 23.9k unlabeled data crawled from instagram
+
+* bi_lstm_ire.ipynb: bi-lstm model for predicting body-shaming classification (training data).
+
+* RandomForest.ipynb: random forest model for predicting body-shaming classification (training data).
+
+* models.ipynb: contains Random Forest, SVM and Logistic Regression models for predicting body-shaming classification (training data).
+
+* pseudo_labelling.ipynb: Generated pseudo labels for the crawled posts using self-trained model
